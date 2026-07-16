@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 687" width="100%" height="100%">
+  <style>
+    /* Base Terminal Background & Window Styling */
+    .bg { fill: #0D1117; }
+    .window-header { fill: #161B22; stroke: #30363D; stroke-width: 1px; }
+    .window-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 12px; fill: #8B949E; font-weight: 600; text-anchor: middle;
+    }
+
+    /* Core Line Animation & Monospace Typography */
+    .line {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+      fill: #00FF99;
+      white-space: pre;
+      opacity: 0;
+      animation: boot-line 0.18s ease-in forwards;
+    }
+
+    /* Optional Terminal Boot Prompt Styling */
+    .prompt { fill: #F8F8F2; font-weight: bold; }
+    .sys-msg { fill: #8BE9FD; }
+
+    /* Keyframes: Fade in and snap horizontally from slight offset */
+    @keyframes boot-line {
+      0% {
+        opacity: 0;
+        transform: translateX(-4px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+
+  <rect class="bg" width="576" height="687" rx="10" ry="10" />
+  <path class="window-header" d="M 0 10 Q 0 0 10 0 L 566 0 Q 576 0 576 10 L 576 36 L 0 36 Z" />
+  <circle cx="20" cy="18" r="6" fill="#FF5F56" />
+  <circle cx="40" cy="18" r="6" fill="#FFBD2E" />
+  <circle cx="60" cy="18" r="6" fill="#27C93F" />
+  <text class="window-title" x="288" y="22">antigravity@portfolio: ~/profile_matrix</text>
+  <line x1="0" y1="36" x2="576" y2="36" stroke="#30363D" stroke-width="1" />
+  <g class="terminal-content">
+    <text x="24" y="69" xml:space="preserve" class="line prompt" style="animation-delay: 0.00s;">$ ./render_profile --source profile.jpg --output ascii-matrix</text>
+    <text x="24" y="82" xml:space="preserve" class="line sys-msg" style="animation-delay: 0.40s;">[SYSTEM] Biometric matrix loaded. Booting visual stream...</text>
+    <text x="24" y="95" xml:space="preserve" class="line" style="animation-delay: 0.80s;"></text>
+    <text x="24" y="108" xml:space="preserve" class="line" style="animation-delay: 0.95s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@@@BBB%%%88&amp;&amp;&amp;WW###</text>
+    <text x="24" y="121" xml:space="preserve" class="line" style="animation-delay: 0.99s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@%%B%@$$$$$$$$$$$$$$$$@BBB%%%8888&amp;WWWM##</text>
+    <text x="24" y="134" xml:space="preserve" class="line" style="animation-delay: 1.03s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@@WbhmcnJYnnJOpa&amp;$$$$@$$$@@@BB%B%%%%8888WWWMM#</text>
+    <text x="24" y="147" xml:space="preserve" class="line" style="animation-delay: 1.07s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&amp;qZLzt({-\/]&lt;&lt;!~_i)vYpB$$$$@@BBB%%%%%%88&amp;&amp;WWWMM#</text>
+    <text x="24" y="160" xml:space="preserve" class="line" style="animation-delay: 1.11s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%awuju/{&gt;i-?i  .`I_-&gt;I&gt;?{fw%$$@@B%%%%8%%%88&amp;&amp;&amp;WWMMM</text>
+    <text x="24" y="173" xml:space="preserve" class="line" style="animation-delay: 1.15s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$8kQXt}r/[~{+:~?_&quot;.^:i&gt;&lt;:^:i,&lt;jp8$BB%%%%88%888&amp;&amp;&amp;&amp;WWMM</text>
+    <text x="24" y="186" xml:space="preserve" class="line" style="animation-delay: 1.19s;">$$$$$$$$$$$$$$$$$$$$$$$$$$@hzn/?t[&lt;i&quot;I&apos;&quot;!i&gt;,&apos;.         &quot;&gt;[QBBB%B%%%%%%8%888&amp;&amp;WMM</text>
+    <text x="24" y="199" xml:space="preserve" class="line" style="animation-delay: 1.23s;">$$$$$$$$$$$$$$$$$$$$$$$$$$%X|1&lt;&lt;)Il^`,.&apos;&quot;&apos;            . `^XBBBBB%88888888&amp;&amp;&amp;&amp;WWW</text>
+    <text x="24" y="212" xml:space="preserve" class="line" style="animation-delay: 1.27s;">$$$$$$$$$$$$$$$$$$$$$$$$$$0(}:;;}1;&apos;`,`&apos;&apos;                 {*BB%%%888%888&amp;&amp;&amp;8&amp;&amp;&amp;&amp;</text>
+    <text x="24" y="225" xml:space="preserve" class="line" style="animation-delay: 1.31s;">$$$$$$$$$$$$$$$$$$$$$$$$$$C1-, I|tf(!,l,.                 .UB%%%%88%888%88888888</text>
+    <text x="24" y="238" xml:space="preserve" class="line" style="animation-delay: 1.35s;">$$$$$$$$$$$$$$$$$$$$$$$$$$o1I&quot;.+Jmd0u\i&quot;&apos;.`&apos;`:II^.  .`    &quot;d@%%%%88888%%8%%%8%%h</text>
+    <text x="24" y="251" xml:space="preserve" class="line" style="animation-delay: 1.39s;">$$$$$$$$$$$$$$$$$$$$$$$$$$%}&gt;ilzW#hQLLf_i?{(\\)}??[(jf; . u$%%%%%B8888888%%B@dYt</text>
+    <text x="24" y="264" xml:space="preserve" class="line" style="animation-delay: 1.43s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$u}[L$%wUcnvUzXYYUXXUYzuuUQc!  )@%%%%%%%88888%B%BWmn-,</text>
+    <text x="24" y="277" xml:space="preserve" class="line" style="animation-delay: 1.47s;">$$$$$$$$$$$$$$$$$$$$$$$$$$$0!x$$*LYt]l^:![tjtt(-&lt;I::I+i [%%8%%%88&amp;&amp;88888%BBJ]~, </text>
+    <text x="24" y="290" xml:space="preserve" class="line" style="animation-delay: 1.51s;">$$$$$$$$$$$$$$$$$$$$$$$$$$0z&lt;0$8mu||;^&quot; :~?__:   &apos;:i&gt;:^iWB8%88888&amp;&amp;&amp;&amp;&amp;888%Bp-. .</text>
+    <text x="24" y="303" xml:space="preserve" class="line" style="animation-delay: 1.55s;">$$$$$$$$$$$$$$$$$$$$$$$$$$CQn&amp;$oZwqJ(?[[ukk0r~I&gt;i^&gt;`.+lt$8888888&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;888%ax~^</text>
+    <text x="24" y="316" xml:space="preserve" class="line" style="animation-delay: 1.59s;">$$$$$$$$$$$$$$$$$$$$$$$$$$&amp;)u$@Wohp0LLZbM8*wUuzn|[}\xz~t$8%%888%88&amp;&amp;W&amp;&amp;&amp;&amp;88&amp;M#\^</text>
+    <text x="24" y="329" xml:space="preserve" class="line" style="animation-delay: 1.63s;">$$$$$$$$$$$$$$$$$$$$$$$$$$*vm$$%MM#*oawhB%WbhJUOCYU0wLj*@%%88%888888&amp;&amp;88%%%M*k&lt; </text>
+    <text x="24" y="342" xml:space="preserve" class="line" style="animation-delay: 1.67s;">$$$$$$$$$$$$$$$$$$$$$$$$$$@mj&amp;$WhokpOYcOZWoZZUnJOZ0Jv/d$8%%88888&amp;88&amp;WW&amp;&amp;&amp;&amp;&amp;W*Mp)</text>
+    <text x="24" y="355" xml:space="preserve" class="line" style="animation-delay: 1.71s;">$$$$$$$$$$$$$$$$$$$$$$$$$$@qnJbbOOLz|/Xr}{_!&apos;_zunuxf(}M%888&amp;&amp;8&amp;&amp;&amp;&amp;&amp;WW&amp;WWMWMMMMWW</text>
+    <text x="24" y="368" xml:space="preserve" class="line" style="animation-delay: 1.75s;">$$$$$$$$$$$$$$$$$$$$$@$$$$$$o)frJLY[&apos;`&lt;+&lt;&gt;+&quot; `&gt;~?[-&lt;&quot;&gt;o8&amp;&amp;W&amp;&amp;WWWWWWWWWMMMMMMM##*</text>
+    <text x="24" y="381" xml:space="preserve" class="line" style="animation-delay: 1.79s;">$$$$$$$$$$$$$$$$$$$$$@@@@@@@@u1))vcI:)XQYxt[i   &quot;l&quot; [MW&amp;WW&amp;&amp;WMWWMMWWMMM#MWWMMMM#</text>
+    <text x="24" y="394" xml:space="preserve" class="line" style="animation-delay: 1.83s;">$$$$$$$$$$$$$$$$$$$$$@@@@@@@$&amp;u)?}+&lt;/Uu)}{|1-&lt;&apos;.`  [%8W&amp;WWWWWWWWWWMMMMMM#MM###*#</text>
+    <text x="24" y="407" xml:space="preserve" class="line" style="animation-delay: 1.87s;">$$$$$$$$$$$$$$$$$$$$@@$$$$$$@W8tI,&quot;IiiI&quot;   .``    )%8W&amp;WW&amp;&amp;WWMMMWMMMWMMM#*####**</text>
+    <text x="24" y="420" xml:space="preserve" class="line" style="animation-delay: 1.91s;">$$$$$$$$$$$$$$$$$$$$$$@WW8*%dz$o/I&quot;^&quot;II,,,`^.    f$8W&amp;&amp;WWWWWWMMMMMMWWMMM#o*M##**</text>
+    <text x="24" y="433" xml:space="preserve" class="line" style="animation-delay: 1.95s;">$$$$$$$$$$$$$$$$$$$%omn{[1j8Q\8d0/I.          .&apos; !aB8@@8&amp;WWMWWMMMWWMMWWMM#######</text>
+    <text x="24" y="446" xml:space="preserve" class="line" style="animation-delay: 1.99s;">$$$$$$$$$$$$$$$$$@p+I]_fznL$M!rCn|-:..       .`.  \cjmhko&amp;%8%%&amp;WWWWWMMM#M##**###</text>
+    <text x="24" y="459" xml:space="preserve" class="line" style="animation-delay: 2.03s;">$$$$$$$$$$$$$$$$Bmt{untC|_j$$X^|t(-&gt;I&apos;      ..    fn~+(|{fzwmZh#8&amp;WWMMM##M*#M**o</text>
+    <text x="24" y="472" xml:space="preserve" class="line" style="animation-delay: 2.07s;">@@@@@@$$$$$$@8MpU\(tr\cC]&quot;&gt;W@%|:)||[+l:^``^`.   .^pvi{-(?&quot;+[}{\)Ch#o#88M*##MMM##</text>
+    <text x="24" y="485" xml:space="preserve" class="line" style="animation-delay: 2.11s;">@@@$$$$$@&amp;odbb0r|(}nj!/Uzu-f@BM?~{\\)[?]?-&gt;I`  ..-@u ]&lt;?-,1[&lt;]1)}-&lt;~\vO*%M##8M#o</text>
+    <text x="24" y="498" xml:space="preserve" class="line" style="animation-delay: 2.15s;">@@$$$$WaOQmOCYut1/[|/,i[~~?-L$$b}|trnxrrf\1}[l : |$m :!&quot;l &quot;&quot;.l_~^ .[&gt;&apos;itchWM8*kw</text>
+    <text x="24" y="511" xml:space="preserve" class="line" style="animation-delay: 2.19s;">@@$$MJCUzCOu/\|}?{1}ti     &quot;&gt;d@@Y+xvunnxxruf+`&apos;^.JWp^&apos;!.:..`&apos;`~l l/+ li`:t*p0QL0</text>
+    <text x="24" y="524" xml:space="preserve" class="line" style="animation-delay: 2.23s;">@@@hL{f\ztI&apos;i[+;~?]}|-:.&quot;:  ^?WB%-,(ucnucv{^  . &lt;phX.&apos;l&quot;&quot;&apos;&apos;`&quot;:+&gt;.{? `^:&lt;+~{?~:,&gt;</text>
+    <text x="24" y="537" xml:space="preserve" class="line" style="animation-delay: 2.27s;">@$o0\&gt;{]}_```~?:l-}\(+i;`;!&quot;&apos;&quot;j$@WI ltYUr!      /kMf ^;:,`.&apos;&apos;^!~ :&quot; &apos;,;I;l!i{(&gt;^</text>
+    <text x="24" y="550" xml:space="preserve" class="line" style="animation-delay: 2.31s;">$8wunf{~l~&lt;^ ^_!:+{t{iiil^i&gt;^. O$$d&apos;..]?.     . J8W~&apos;&quot;IIl^.`.:Ii^   ^,:IIlIi&lt;})1</text>
+    <text x="24" y="563" xml:space="preserve" class="line" style="animation-delay: 2.35s;">@bY|1|&lt;^!;}I  I~.^,&quot;^^I;;:&quot;&lt;,`.,a$$X .`      &apos; &quot;h$q`&quot;,llI` &apos; :::`&apos;  ``.&apos;`^Il,&quot;,_</text>
+    <text x="24" y="576" xml:space="preserve" class="line" style="animation-delay: 2.39s;">#0vr\_I&quot;&quot;^~-&apos;  ii+?]-[]--+~?; . &lt;%@${ l;.    ^ -B$v ,,I~i&quot;  .I:I^   &quot;^^&quot;^```&quot;&quot;&quot;i</text>
+    <text x="24" y="589" xml:space="preserve" class="line" style="animation-delay: 2.43s;">Zvt)~:`&apos;  .;,  ,?\trnjrYJYXt&lt;&apos; . f$@Wl  ^    : r$B_ ,,I&lt;i,  .ilii  .^.  &apos;&apos;``&quot;:!]</text>
+    <text x="24" y="602" xml:space="preserve" class="line" style="animation-delay: 2.47s;">z/[&gt;,`.     ^. &apos;iI.i+l1]l;;~}, ...m$$p` ^.  ^^.q$d..`,Ili;   ~;;~&quot;   ..&apos;&apos;&apos;.`,;l?</text>
+    <text x="24" y="615" xml:space="preserve" class="line" style="animation-delay: 2.51s;">j)+l&quot;        . .I;`  &quot;Ii;,&apos;:1, .. IM$$X ,.  I ~8$\ &apos;&apos;:&gt;Iil   ~i,&gt;I       &apos;^,I&gt;-}</text>
+    <text x="24" y="628" xml:space="preserve" class="line" style="animation-delay: 2.55s;">}&gt;:&quot;^&apos;.        .l^&apos;:`^,:,^.^),     [$@$|.&apos; ^; f$d. .&apos;,;:~!.  !+,,!&apos;     ,Ilii+})</text>
+    <text x="24" y="641" xml:space="preserve" class="line" style="animation-delay: 2.59s;">1_I^.           :, &apos;.`,,:` `1I    . z$@%- .I` Q@&gt;   &apos;,`,il&apos;  :?&gt;:l;   .,:^,I&gt;]}{</text>
+    <text x="24" y="654" xml:space="preserve" class="line" style="animation-delay: 2.63s;">_l&quot;`&apos;.          ^, . ^::,&apos; `1i      &apos;p$$o&quot; ,  bn .^^^^.:iI&apos;  `++ilI   &apos;^,^I!li-?</text>
+    <text x="24" y="667" xml:space="preserve" class="line" style="animation-delay: 2.67s;">}}!;            .&quot;&apos;. ,:^&apos;. l(~       i&amp;@$J &quot; ^Y.  &apos;^^&apos;.;-&gt;^   I-+!I&apos;    `^&apos; :]]l</text>
+  </g>
+</svg>
