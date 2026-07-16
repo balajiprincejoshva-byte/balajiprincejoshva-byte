@@ -35,22 +35,14 @@
 
 ---
 
-### `[ABOUT ME] Terminal System Specifications`
+### 👨‍💻 About Me & Research Focus
 
-```yaml
-[USER_PROFILE]:
-  Name            : Balaji M
-  Role            : Computational Biologist & AI Architect
-  Location        : Krishnagiri, India / Remote
-  Core_Mission    : Synthesizing foundational algorithms at the intersection of spatial multi-omics, GNNs, and full-stack software engineering.
-  Research_Focus  : Real-time cryptic pocket mapping, flow-matching ensemble generation, autonomous de novo drug design, and spatial cellular pharmacokinetics.
-  Current_Projects:
-    - Kinetix-Generative-Flow: Browser-native biophysics engine for real-time cryptic pocket mapping.
-    - WebVMD-Molecular-Dynamics: Interactive molecular dynamics visualization platform built with FastAPI, Next.js, and Three.js.
-    - Genomic-Variant-Analyzer: Client-side bioinformatics pipeline for alignment, annotation, and interactive visualization.
-    - ToxiPred-ADMET-Engine: In-silico hepatotoxicity & ADMET risk prediction engine using RDKit + XGBoost + SHAP.
-  Terminal_Theme  : GitHub Dark / Cyber Matrix (#00FF99)
-```
+I am a **Computational Biologist & AI Architect** engineering spatial multi-omics frameworks, Graph Neural Networks (GNNs), and biophysical foundation models for precision medicine and de novo drug discovery.
+
+- 🔬 **Core Focus**: Synthesizing high-throughput genomic data, spatial cellular pharmacokinetics (`SpatialCP`), and browser-native biophysics engines (`Kinetix-Generative-Flow`).
+- ⚡ **Full-Stack Engineering**: Building scalable cloud architectures and interactive molecular simulation platforms (`WebVMD`, `FastAPI`, `Next.js`).
+- 🌱 **Current Research**: Real-time cryptic pocket mapping, flow-matching ensemble generation, and in-silico ADMET toxicity risk engines (`ToxiPred`).
+- 📫 **Connect with me**: [ORCID Profile](https://orcid.org/0009-0005-0738-4363) | [ResearchGate](https://www.researchgate.net/profile/Balaji-Muthukumar-2) | [Portfolio Website](https://my-portfolio-one-plum-69.vercel.app)
 
 ---
 
@@ -99,37 +91,15 @@
 
 ---
 
-### `[COMMAND] ./execute_bio_pipeline --demo`
+### 🚀 Featured Engineering & Biophysical Projects
 
-```python
-#!/usr/bin/env python3
-import torch
-import biopython as bio
-from neural_genomics import ProteinStructurePredictor, SpatialPharmacokinetics
-
-class BioAIArchitect:
-    def __init__(self, target_sequence: str):
-        self.sequence = target_sequence
-        self.predictor = ProteinStructurePredictor.load_pretrained("bio-net-v3-large")
-        self.pk_engine = SpatialPharmacokinetics.init_grid(resolution="atomic_1A")
-        
-    def run_inference_pipeline(self):
-        print("[01] Encoding spatial multi-omics vectors & structural tensors...")
-        embeddings = self.predictor.encode(self.sequence)
-        
-        print("[02] Simulating 3D structural folding & cryptic pocket mapping...")
-        conformation = self.predictor.predict_conformation(embeddings, precision="fp16")
-        
-        print("[03] Running autonomous de novo drug affinity relaxation...")
-        affinity_score = self.pk_engine.evaluate_pocket(conformation.active_site)
-        
-        return conformation.export_pdb(), affinity_score
-
-if __name__ == "__main__":
-    pipeline = BioAIArchitect(target_sequence="MKWVTFISLLFLFSSAYSRGV...")
-    pdb_path, score = pipeline.run_inference_pipeline()
-    # Output: [SUCCESS] Folded structure exported | MMFF94 Affinity Score: -14.8 kcal/mol
-```
+| Project | Description | Core Stack |
+| :--- | :--- | :--- |
+| **[🔬 Kinetix-Generative-Flow](https://github.com/balajiprincejoshva-byte/kinetix-generative-flow)** | Browser-native biophysics engine for real-time cryptic pocket mapping and autonomous de novo drug design with MMFF94 relaxation. | `Python`, `PyTorch`, `RDKit` |
+| **[⚡ WebVMD-Molecular-Dynamics](https://github.com/balajiprincejoshva-byte/webvmd-molecular-dynamics)** | Interactive molecular dynamics visualization platform streaming large MD trajectories with real-time structural analysis. | `TypeScript`, `Next.js`, `FastAPI`, `Three.js` |
+| **[🧬 Genomic-Variant-Analyzer](https://github.com/balajiprincejoshva-byte/genomic-variant-analyzer)** | Client-side bioinformatics pipeline for high-throughput genomic alignment, annotation, and interactive visualization. | `TypeScript`, `Bioinformatics`, `React` |
+| **[🧪 ToxiPred-ADMET-Engine](https://github.com/balajiprincejoshva-byte/ToxiPred-ADMET-Engine)** | In-silico hepatotoxicity & ADMET risk prediction engine using RDKit, XGBoost, and SHAP explainability. | `Python`, `XGBoost`, `SHAP`, `Streamlit` |
+| **[🧠 SpatialCP Framework](https://github.com/balajiprincejoshva-byte/SpatialCP)** | AI-driven Tech-Bio platform integrating agentic workflows with spatial transcriptomics to simulate 3D drug diffusion and target engagement. | `Python`, `Agentic AI`, `Spatial Multi-Omics` |
 
 ---
 
