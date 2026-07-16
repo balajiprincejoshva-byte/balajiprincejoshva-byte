@@ -29,7 +29,7 @@
 
 <div align="center">
 
-![Terminal Boot-Up Profile ASCII Art](https://cdn.jsdelivr.net/gh/balajiprincejoshva-byte/balajiprincejoshva-byte@main/animated_profile.svg?v=2)
+![Terminal Boot-Up Profile ASCII Art](./Animated_Profile.gif)
 
 </div>
 
