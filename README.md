@@ -141,19 +141,23 @@
 
 ---
 
-### 🚀 Featured Engineering & Biophysical Projects
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3A1C71,50:D76D77,100:FFAF7B&height=60&section=header&text=FEATURED%20PROJECTS%20&%20ARCHITECTURES&fontSize=20&fontColor=ffffff&fontAlignY=62" alt="Featured Projects Subheader" width="100%" />
+</div>
 
-| Project | Description | Core Stack |
+<br />
+
+| Project Architecture | Domain & Core Innovation | Tech Stack & Frameworks |
 | :--- | :--- | :--- |
-| **[🔬 Kinetix-Generative-Flow](https://github.com/balajiprincejoshva-byte/kinetix-generative-flow)** | Browser-native biophysics engine for real-time cryptic pocket mapping and autonomous de novo drug design with MMFF94 relaxation. | `Python`, `PyTorch`, `RDKit` |
-| **[⚡ WebVMD-Molecular-Dynamics](https://github.com/balajiprincejoshva-byte/webvmd-molecular-dynamics)** | Interactive molecular dynamics visualization platform streaming large MD trajectories with real-time structural analysis. | `TypeScript`, `Next.js`, `FastAPI`, `Three.js` |
-| **[🧬 Genomic-Variant-Analyzer](https://github.com/balajiprincejoshva-byte/genomic-variant-analyzer)** | Client-side bioinformatics pipeline for high-throughput genomic alignment, annotation, and interactive visualization. | `TypeScript`, `Bioinformatics`, `React` |
-| **[🧪 ToxiPred-ADMET-Engine](https://github.com/balajiprincejoshva-byte/ToxiPred-ADMET-Engine)** | In-silico hepatotoxicity & ADMET risk prediction engine using RDKit, XGBoost, and SHAP explainability. | `Python`, `XGBoost`, `SHAP`, `Streamlit` |
-| **[🧠 SpatialCP Framework](https://github.com/balajiprincejoshva-byte/SpatialCP)** | AI-driven Tech-Bio platform integrating agentic workflows with spatial transcriptomics to simulate 3D drug diffusion and target engagement. | `Python`, `Agentic AI`, `Spatial Multi-Omics` |
+| <img src="https://img.shields.io/badge/BIOPHYSICS_ENGINE-8A2BE2?style=for-the-badge&fontColor=white" alt="Biophysics Engine" /><br /><br />**[🔬 Kinetix-Generative-Flow](https://github.com/balajiprincejoshva-byte/kinetix-generative-flow)** | Browser-native biophysics engine for real-time cryptic pocket mapping and autonomous de novo drug design with **MMFF94 relaxation**. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/RDKit-8E2DE2?style=flat-square&logo=python&logoColor=white" alt="RDKit" /> |
+| <img src="https://img.shields.io/badge/MD_STREAMING-00D2FF?style=for-the-badge&fontColor=black" alt="MD Streaming" /><br /><br />**[⚡ WebVMD-Molecular-Dynamics](https://github.com/balajiprincejoshva-byte/webvmd-molecular-dynamics)** | Interactive molecular dynamics visualization platform streaming large MD trajectories with **real-time structural analysis**. | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /> <img src="https://img.shields.io/badge/Three.js-FF6F00?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" /> |
+| <img src="https://img.shields.io/badge/BIOINFORMATICS-FF007A?style=for-the-badge&fontColor=white" alt="Bioinformatics" /><br /><br />**[🧬 Genomic-Variant-Analyzer](https://github.com/balajiprincejoshva-byte/genomic-variant-analyzer)** | Client-side bioinformatics pipeline for **high-throughput genomic alignment**, sequence annotation, and interactive visual mapping. | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Bioinformatics-E91E63?style=flat-square&logo=python&logoColor=white" alt="Bioinformatics" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> |
+| <img src="https://img.shields.io/badge/ADMET_PREDICTION-FF9900?style=for-the-badge&fontColor=black" alt="ADMET Engine" /><br /><br />**[🧪 ToxiPred-ADMET-Engine](https://github.com/balajiprincejoshva-byte/ToxiPred-ADMET-Engine)** | In-silico hepatotoxicity & ADMET risk prediction engine combining **XGBoost gradient boosting** with **SHAP explainability**. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/XGBoost-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white" alt="XGBoost" /> <img src="https://img.shields.io/badge/SHAP-5C6BC0?style=flat-square&logo=python&logoColor=white" alt="SHAP" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" /> |
+| <img src="https://img.shields.io/badge/SPATIAL_AI-2962FF?style=for-the-badge&fontColor=white" alt="Spatial AI" /><br /><br />**[🧠 SpatialCP Framework](https://github.com/balajiprincejoshva-byte/SpatialCP)** | AI-driven Tech-Bio platform integrating **autonomous agentic workflows** with spatial transcriptomics for 3D drug diffusion modeling. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Agentic_AI-7C4DFF?style=flat-square&logo=probot&logoColor=white" alt="Agentic AI" /> <img src="https://img.shields.io/badge/Multi--Omics-D500F9?style=flat-square&logo=graphql&logoColor=white" alt="Spatial Multi-Omics" /> |
 
 ---
 
-### `[SYSTEM METRICS & HISTORY] GitHub Telemetry & Contribution Matrix`
+### 📊 GitHub Telemetry & Contribution Matrix
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=balajiprincejoshva-byte&theme=github_dark" height="180px" alt="GitHub Profile Summary" />
