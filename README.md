@@ -39,14 +39,60 @@
 
 ---
 
-### 👨‍💻 About Me & Research Focus
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:00FF99&height=60&section=header&text=ABOUT%20ME%20&%20RESEARCH%20FOCUS&fontSize=20&fontColor=ffffff&fontAlignY=62" alt="About Me Subheader" width="100%" />
+</div>
 
-I am a **Computational Biologist & AI Architect** engineering spatial multi-omics frameworks, Graph Neural Networks (GNNs), and biophysical foundation models for precision medicine and de novo drug discovery.
+<br />
 
-- 🔬 **Core Focus**: Synthesizing high-throughput genomic data, spatial cellular pharmacokinetics (`SpatialCP`), and browser-native biophysics engines (`Kinetix-Generative-Flow`).
-- ⚡ **Full-Stack Engineering**: Building scalable cloud architectures and interactive molecular simulation platforms (`WebVMD`, `FastAPI`, `Next.js`).
-- 🌱 **Current Research**: Real-time cryptic pocket mapping, flow-matching ensemble generation, and in-silico ADMET toxicity risk engines (`ToxiPred`).
-- 📫 **Connect with me**: [ORCID Profile](https://orcid.org/0009-0005-0738-4363) | [ResearchGate](https://www.researchgate.net/profile/Balaji-Muthukumar-2) | [Portfolio Website](https://my-portfolio-one-plum-69.vercel.app)
+> [!IMPORTANT]
+> ### 🎯 Core Mission & Vision
+> I am a **Computational Biologist & AI Architect** dedicated to bridging the gap between spatial multi-omics, Graph Neural Networks (GNNs), and biophysical foundation models. My focus is architecting real-time simulation engines that accelerate precision medicine and de novo drug discovery from bench to cloud.
+
+<br />
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="33%" valign="top" style="border: 1px solid #30363D; padding: 16px; background-color: #0D1117; border-radius: 8px;">
+      <div align="center">
+        <img src="https://img.shields.io/badge/CORE_FOCUS-00FF99?style=for-the-badge&logo=dna&logoColor=0D1117" alt="Core Focus" />
+      </div>
+      <br />
+      🔬 <strong>Spatial Multi-Omics & Biophysics</strong><br />
+      Synthesizing high-throughput genomic datasets, modeling spatial cellular pharmacokinetics (<code>SpatialCP</code>), and building browser-native biophysics engines (<code>Kinetix-Generative-Flow</code>).
+    </td>
+    <td width="33%" valign="top" style="border: 1px solid #30363D; padding: 16px; background-color: #0D1117; border-radius: 8px;">
+      <div align="center">
+        <img src="https://img.shields.io/badge/RESEARCH_FRONTIER-00FF99?style=for-the-badge&logo=pytorch&logoColor=0D1117" alt="Research Frontier" />
+      </div>
+      <br />
+      🧠 <strong>Deep Learning & de Novo Design</strong><br />
+      Pioneering real-time cryptic pocket mapping, flow-matching ensemble generation, Graph Neural Networks (GNNs), and in-silico ADMET toxicity risk engines (<code>ToxiPred</code>).
+    </td>
+    <td width="33%" valign="top" style="border: 1px solid #30363D; padding: 16px; background-color: #0D1117; border-radius: 8px;">
+      <div align="center">
+        <img src="https://img.shields.io/badge/FULL__STACK_SYSTEMS-00FF99?style=for-the-badge&logo=nextdotjs&logoColor=0D1117" alt="Full Stack Systems" />
+      </div>
+      <br />
+      ⚡ <strong>Scalable Cloud Architecture</strong><br />
+      Engineering high-performance molecular simulation platforms and real-time streaming architectures using <code>FastAPI</code>, <code>Next.js</code>, <code>TypeScript</code>, and <code>Three.js</code> (<code>WebVMD</code>).
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<div align="center">
+  <a href="https://orcid.org/0009-0005-0738-4363">
+    <img src="https://img.shields.io/badge/ORCID-0009--0005--0738--4363-00FF99?style=for-the-badge&logo=orcid&logoColor=0D1117" alt="ORCID Profile" />
+  </a>
+  <a href="https://www.researchgate.net/profile/Balaji-Muthukumar-2">
+    <img src="https://img.shields.io/badge/ResearchGate-Balaji_Muthukumar-00FF99?style=for-the-badge&logo=researchgate&logoColor=0D1117" alt="ResearchGate Profile" />
+  </a>
+  <a href="https://my-portfolio-one-plum-69.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio_Website-Live_Experience-00FF99?style=for-the-badge&logo=vercel&logoColor=0D1117" alt="Portfolio Website" />
+  </a>
+</div>
 
 ---
 
