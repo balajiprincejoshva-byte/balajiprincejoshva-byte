@@ -28,9 +28,9 @@
 ### `[SYSTEM BOOT] Visual Biometric Matrix`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/balajiprincejoshva-byte/balajiprincejoshva-byte/main/animated_profile.svg" alt="Terminal Boot-Up Profile ASCII Art" width="620px" />
-  <br />
-  <img src="./animated_profile.svg" alt="Terminal Boot-Up Profile ASCII Art Fallback" width="620px" onerror="this.style.display='none'" />
+
+![Terminal Boot-Up Profile ASCII Art](./animated_profile.svg)
+
 </div>
 
 ---
@@ -152,9 +152,9 @@ if __name__ == "__main__":
 
 <div align="center">
   <p>An automated cron job (`.github/workflows/snake.yml`) updates this grid every 12 hours as new commits are pushed.</p>
-  <a href="https://github.com/balajiprincejoshva-byte/balajiprincejoshva-byte">
-    <img src="https://raw.githubusercontent.com/balajiprincejoshva-byte/balajiprincejoshva-byte/output/github-contribution-grid-snake.svg" alt="Snake Contribution Grid" width="100%" />
-  </a>
+
+[![Snake Contribution Grid](https://raw.githubusercontent.com/balajiprincejoshva-byte/balajiprincejoshva-byte/output/github-contribution-grid-snake.svg)](https://github.com/balajiprincejoshva-byte/balajiprincejoshva-byte)
+
 </div>
 
 ---

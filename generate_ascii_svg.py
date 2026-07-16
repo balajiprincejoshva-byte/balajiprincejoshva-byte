@@ -182,7 +182,6 @@ def generate_animated_svg(ascii_lines: list[str], output_path: str) -> None:
     svg_parts = []
 
     # XML Header & SVG Root Tag
-    svg_parts.append('<?xml version="1.0" encoding="UTF-8"?>')
     svg_parts.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'viewBox="0 0 {canvas_width} {canvas_height}" '
