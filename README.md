@@ -25,7 +25,7 @@
 
 ---
 
-### `[SYSTEM BOOT] Visual Biometric Matrix`
+### 🧬 Visual Biometric Matrix & Terminal Boot-Up
 
 <div align="center">
 
@@ -46,7 +46,7 @@ I am a **Computational Biologist & AI Architect** engineering spatial multi-omic
 
 ---
 
-### `[DEV ICONS & STACK] Computational & Engineering Toolkits`
+### 🛠️ Computational & Engineering Toolkits
 
 <div align="center">
   <h4>🧬 Computational Biology & Molecular Simulation</h4>
@@ -118,7 +118,7 @@ I am a **Computational Biologist & AI Architect** engineering spatial multi-omic
 
 ---
 
-### `[CONTRIBUTION SNAKE] Autonomous Grid Consumer`
+### 🐍 Contribution Activity & Interactive Snake Grid
 
 <div align="center">
   <p>An automated cron job (`.github/workflows/snake.yml`) updates this grid every 12 hours as new commits are pushed.</p>
@@ -129,15 +129,13 @@ I am a **Computational Biologist & AI Architect** engineering spatial multi-omic
 
 ---
 
-### `[EOF] System Diagnostic Complete`
+### 🌐 Open for Collaboration & Research Opportunities
 
-```bash
-antigravity@portfolio:~$ ping -c 1 balaji.contact@matrix.net
-PING balaji.contact@matrix.net (127.0.0.1): 56 data bytes
-64 bytes from 127.0.0.1: icmp_seq=0 ttl=64 time=0.042 ms
+Whether you want to discuss spatial multi-omics architectures, de novo drug discovery pipelines, or full-stack biophysical engineering, feel free to reach out!
 
---- System status: ONLINE & OPEN FOR COLLABORATION ---
-```
+<div align="center">
+  📫 <strong>Get in touch:</strong> <a href="mailto:balajiprincejoshva@gmail.com">balajiprincejoshva@gmail.com</a> | ⚡ <strong>Status:</strong> Online & Active
+</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:0D1117&height=120&section=footer" alt="Footer" width="100%" />
