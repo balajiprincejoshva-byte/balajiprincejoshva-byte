@@ -16,8 +16,10 @@
 
 ### `[SYSTEM BOOT] Visual Biometric Matrix`
 
-<img src="./animated_profile.svg" alt="Terminal Boot-Up Profile ASCII Art" width="620px" />
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/balajiprincejoshva-byte/balajiprincejoshva-byte/main/animated_profile.svg" alt="Terminal Boot-Up Profile ASCII Art" width="620px" />
+  <br />
+  <img src="./animated_profile.svg" alt="Terminal Boot-Up Profile ASCII Art Fallback" width="620px" onerror="this.style.display='none'" />
 </div>
 
 ---
@@ -87,8 +89,8 @@ if __name__ == "__main__":
 ### `[SYSTEM METRICS] GitHub Telemetry & Activity`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=balajiprincejoshva-byte&show_icons=true&theme=dark&bg_color=0D1117&title_color=00FF99&text_color=c9d1d9&icon_color=00FF99&border_color=30363d&hide_border=false" height="180px" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=balajiprincejoshva-byte&layout=compact&theme=dark&bg_color=0D1117&title_color=00FF99&text_color=c9d1d9&border_color=30363d&hide_border=false" height="180px" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=balajiprincejoshva-byte&theme=github_dark" height="180px" alt="GitHub Profile Summary" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=balajiprincejoshva-byte&theme=github_dark" height="180px" alt="Top Languages" />
 </div>
 
 <br />

@@ -186,7 +186,7 @@ def generate_animated_svg(ascii_lines: list[str], output_path: str) -> None:
     svg_parts.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'viewBox="0 0 {canvas_width} {canvas_height}" '
-        f'width="100%" height="100%">'
+        f'width="{canvas_width}" height="{canvas_height}">'
     )
 
     # Embedded CSS Styling & @keyframes
