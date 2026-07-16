@@ -1,37 +1,41 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF99&height=180&section=header&text=BALAJI%20M%20|%20COMPUTATIONAL%20BIOLOGY%20&%20AI&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header" width="100%" />
-
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=00FF99&background=0D1117&center=true&vCenter=true&width=700&lines=System.init(Bio_ML_FullStack_Engineer);Loading+High-Throughput+Genomics+%26+Deep+Learning+Matrix...;Architecting+Next-Gen+Biophysical+AI+%26+Cloud+Systems...;Status%3A+READY+%7C+Welcome+to+my+Terminal)](https://git.io/typing-svg)
-
-  <br />
-
-  <!-- Social Badges & Contact -->
-  <a href="https://github.com/balajiprincejoshva-byte">
-    <img src="https://img.shields.io/badge/GitHub-balajiprincejoshva--byte-0D1117?style=for-the-badge&logo=github&logoColor=00FF99&borderColor=00FF99" alt="GitHub" />
-  </a>
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF99&borderColor=00FF99" alt="LinkedIn" />
-  </a>
-  <a href="https://orcid.org/0009-0005-0738-4363">
-    <img src="https://img.shields.io/badge/ORCID-Research_Profile-0D1117?style=for-the-badge&logo=orcid&logoColor=00FF99&borderColor=00FF99" alt="ORCID" />
-  </a>
-  <a href="mailto:balajiprincejoshva@gmail.com">
-    <img src="https://img.shields.io/badge/Email-balajiprincejoshva%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF99&borderColor=00FF99" alt="Email" />
-  </a>
-  <a href="https://komarev.com/ghpvc/?username=balajiprincejoshva-byte&label=PROFILE+VIEWS&style=for-the-badge&color=00FF99">
-    <img src="https://komarev.com/ghpvc/?username=balajiprincejoshva-byte&label=VIEWS&style=for-the-badge&color=00FF99" alt="Profile Views" />
-  </a>
 </div>
 
----
+<br />
 
-### 🧬 Visual Biometric Matrix & Terminal Boot-Up
-
-<div align="center">
-
-![Terminal Boot-Up Profile ASCII Art](./Animated_Profile.webp)
-
-</div>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="350" align="center" valign="middle" style="border: none; padding: 10px;">
+      <a href="https://github.com/balajiprincejoshva-byte">
+        <img src="https://cdn.jsdelivr.net/gh/balajiprincejoshva-byte/balajiprincejoshva-byte@main/Animated_Profile.webp" alt="Terminal Boot-Up Profile ASCII Art" width="330" />
+      </a>
+    </td>
+    <td align="center" valign="middle" style="border: none; padding: 10px;">
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=00FF99&background=0D1117&center=true&vCenter=true&width=460&lines=System.init(Bio_ML_FullStack_Engineer);Loading+High-Throughput+Genomics+%26+Deep+Learning+Matrix...;Architecting+Next-Gen+Biophysical+AI+%26+Cloud+Systems...;Status%3A+READY+%7C+Welcome+to+my+Terminal" alt="Typing SVG" />
+      </a>
+      <br /><br />
+      <!-- Social Badges & Contact -->
+      <a href="https://github.com/balajiprincejoshva-byte">
+        <img src="https://img.shields.io/badge/GitHub-balajiprincejoshva--byte-0D1117?style=for-the-badge&logo=github&logoColor=00FF99&borderColor=00FF99" alt="GitHub" />
+      </a>
+      <a href="https://linkedin.com">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF99&borderColor=00FF99" alt="LinkedIn" />
+      </a>
+      <a href="https://orcid.org/0009-0005-0738-4363">
+        <img src="https://img.shields.io/badge/ORCID-Research_Profile-0D1117?style=for-the-badge&logo=orcid&logoColor=00FF99&borderColor=00FF99" alt="ORCID" />
+      </a>
+      <br /><br />
+      <a href="mailto:balajiprincejoshva@gmail.com">
+        <img src="https://img.shields.io/badge/Email-balajiprincejoshva%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF99&borderColor=00FF99" alt="Email" />
+      </a>
+      <a href="https://komarev.com/ghpvc/?username=balajiprincejoshva-byte&label=PROFILE+VIEWS&style=for-the-badge&color=00FF99">
+        <img src="https://komarev.com/ghpvc/?username=balajiprincejoshva-byte&label=VIEWS&style=for-the-badge&color=00FF99" alt="Profile Views" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
