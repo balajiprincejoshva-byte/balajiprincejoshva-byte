@@ -14,7 +14,7 @@
       font-size: 11px;
       fill: #00FF99;
       white-space: pre;
-      opacity: 0;
+      opacity: 1;
       animation: boot-line 0.18s ease-in forwards;
     }
 
@@ -25,12 +25,10 @@
     /* Keyframes: Fade in and snap horizontally from slight offset */
     @keyframes boot-line {
       0% {
-        opacity: 0;
-        transform: translateX(-4px);
+        opacity: 0.7;
       }
       100% {
         opacity: 1;
-        transform: translateX(0);
       }
     }
   </style>
