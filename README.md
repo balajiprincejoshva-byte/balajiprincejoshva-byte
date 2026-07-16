@@ -29,7 +29,7 @@
 
 <div align="center">
 
-![Terminal Boot-Up Profile ASCII Art](./Animated_Profile.gif)
+![Terminal Boot-Up Profile ASCII Art](./Animated_Profile.webp)
 
 </div>
 
