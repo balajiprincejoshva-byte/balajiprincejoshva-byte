@@ -188,9 +188,9 @@ def generate_animated_svg(ascii_lines: list[str], output_path: str) -> None:
         f'width="{canvas_width}" height="{canvas_height}">'
     )
 
-    # Embedded CSS Styling & @keyframes
-    svg_parts.append('  <style>')
-    svg_parts.append('    /* Base Terminal Background & Window Styling */')
+    # Embedded CSS Styling & @keyframes wrapped in CDATA to prevent XML parser errors
+    svg_parts.append('  <style><![CDATA[')
+    svg_parts.append('    /* Base Terminal Background and Window Styling */')
     svg_parts.append(f'    .bg {{ fill: {BG_COLOR}; }}')
     svg_parts.append('    .window-header { fill: #161B22; stroke: #30363D; stroke-width: 1px; }')
     svg_parts.append('    .window-title {')
@@ -198,7 +198,7 @@ def generate_animated_svg(ascii_lines: list[str], output_path: str) -> None:
     svg_parts.append('      font-size: 12px; fill: #8B949E; font-weight: 600; text-anchor: middle;')
     svg_parts.append('    }')
     svg_parts.append('')
-    svg_parts.append('    /* Core Line Animation & Monospace Typography */')
+    svg_parts.append('    /* Core Line Animation and Monospace Typography */')
     svg_parts.append('    .line {')
     svg_parts.append(f'      font-family: {FONT_FAMILY};')
     svg_parts.append(f'      font-size: {FONT_SIZE}px;')
@@ -212,7 +212,7 @@ def generate_animated_svg(ascii_lines: list[str], output_path: str) -> None:
     svg_parts.append('    .prompt { fill: #F8F8F2; font-weight: bold; }')
     svg_parts.append('    .sys-msg { fill: #8BE9FD; }')
     svg_parts.append('')
-    svg_parts.append('    /* Keyframes: Fade in and snap horizontally from slight offset */')
+    svg_parts.append('    /* Keyframes: Subtle glow in without 0 opacity crash in static img tags */')
     svg_parts.append('    @keyframes boot-line {')
     svg_parts.append('      0% {')
     svg_parts.append('        opacity: 0.7;')
@@ -221,7 +221,7 @@ def generate_animated_svg(ascii_lines: list[str], output_path: str) -> None:
     svg_parts.append('        opacity: 1;')
     svg_parts.append('      }')
     svg_parts.append('    }')
-    svg_parts.append('  </style>')
+    svg_parts.append('  ]]></style>')
     svg_parts.append('')
 
     # Background Canvas Rectangle with rounded corners

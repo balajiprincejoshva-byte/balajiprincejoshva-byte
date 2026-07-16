@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 687" width="576" height="687">
-  <style>
-    /* Base Terminal Background & Window Styling */
+  <style><![CDATA[
+    /* Base Terminal Background and Window Styling */
     .bg { fill: #0D1117; }
     .window-header { fill: #161B22; stroke: #30363D; stroke-width: 1px; }
     .window-title {
@@ -8,7 +8,7 @@
       font-size: 12px; fill: #8B949E; font-weight: 600; text-anchor: middle;
     }
 
-    /* Core Line Animation & Monospace Typography */
+    /* Core Line Animation and Monospace Typography */
     .line {
       font-family: 'Courier New', Courier, monospace;
       font-size: 11px;
@@ -22,7 +22,7 @@
     .prompt { fill: #F8F8F2; font-weight: bold; }
     .sys-msg { fill: #8BE9FD; }
 
-    /* Keyframes: Fade in and snap horizontally from slight offset */
+    /* Keyframes: Subtle glow in without 0 opacity crash in static img tags */
     @keyframes boot-line {
       0% {
         opacity: 0.7;
@@ -31,7 +31,7 @@
         opacity: 1;
       }
     }
-  </style>
+  ]]></style>
 
   <rect class="bg" width="576" height="687" rx="10" ry="10" />
   <path class="window-header" d="M 0 10 Q 0 0 10 0 L 566 0 Q 576 0 576 10 L 576 36 L 0 36 Z" />
