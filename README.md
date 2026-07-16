@@ -29,7 +29,7 @@
 
 <div align="center">
 
-![Terminal Boot-Up Profile ASCII Art](./animated_profile.svg)
+![Terminal Boot-Up Profile ASCII Art](https://cdn.jsdelivr.net/gh/balajiprincejoshva-byte/balajiprincejoshva-byte@main/animated_profile.svg)
 
 </div>
 
@@ -153,7 +153,7 @@ if __name__ == "__main__":
 <div align="center">
   <p>An automated cron job (`.github/workflows/snake.yml`) updates this grid every 12 hours as new commits are pushed.</p>
 
-[![Snake Contribution Grid](https://raw.githubusercontent.com/balajiprincejoshva-byte/balajiprincejoshva-byte/output/github-contribution-grid-snake.svg)](https://github.com/balajiprincejoshva-byte/balajiprincejoshva-byte)
+[![Snake Contribution Grid](https://cdn.jsdelivr.net/gh/balajiprincejoshva-byte/balajiprincejoshva-byte@output/github-contribution-grid-snake.svg)](https://github.com/balajiprincejoshva-byte/balajiprincejoshva-byte)
 
 </div>
 
